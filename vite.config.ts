@@ -14,7 +14,7 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: false,
   },
-  base: "/",
+  base: "/smartTask/",
   resolve: {
     alias: {
       "@data": path.resolve(__dirname, "src/data"),
