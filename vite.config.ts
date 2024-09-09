@@ -11,7 +11,7 @@ export default defineConfig({
     "process.env": process.env,
   },
   build: {
-    outDir: "./",
+    outDir: "dist",
     emptyOutDir: false,
   },
   base: "/",
